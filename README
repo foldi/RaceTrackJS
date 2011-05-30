@@ -21,3 +21,5 @@ The Event Tracking Action will equal the action taken plus the class name.
 The Event Tracking Label will equal the object's id.
 
 The Event Tracking Value will equal the duration in milliseconds from when the page loaded to when the action was triggered.
+
+See index.html for an example.
