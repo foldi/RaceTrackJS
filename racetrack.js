@@ -1,6 +1,11 @@
 /*global window, document */
 /**
 	Google Analytics Event Tracking by class name.
+	
+	@author Vince Allen 05-30-2011
+	
+	version 1.0
+	
 **/
 RaceTrackJS = {};
 RaceTrackJS.Tracker = (function () {
