@@ -51,7 +51,7 @@ RaceTrackJS.Tracker = (function () {
 				label = data.id.toLowerCase();
 
 				RaceTrackJS.Tracker.tracked_events.push({ category: category, action: action, label: label, value: value }); // store the tracked events 
-alert(RaceTrackJS.Tracker.tracked_events[0].label);
+
 				if(typeof _gaq === "object") {
 					return _gaq.push(["_trackEvent", category, action, label, value]); // Google Analytics Async Code
 				} else if (typeof pageTracker === "object") {
