@@ -1,4 +1,4 @@
-RaceTrackJS provides an easy way to set up Google Analytics on your website. 
+RaceTrackJS provides an easy way to set up Google Analytics Event Tracking on your website. 
 
 Add a reference to the racetrack.js file in the <HEAD> of your document.
 
