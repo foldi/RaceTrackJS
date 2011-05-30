@@ -1,0 +1,23 @@
+RaceTrackJS provides an easy way to set up Google Analytics on your website. 
+
+Add a reference to the racetrack.js file in the <HEAD> of your document.
+
+After the DOM loads, configure the Tracker object by passing an array of class names to track and actions to track. Ex:
+
+RaceTrackJS.Tracker.configure({
+	className: ["ga_test"], // array of classes to track
+	toTrack: { // add classes to these arrays that should NOT be tracked for these actions
+		click: [], 
+		touchend: []
+	}
+});
+
+Using the above configuration, any clicks or touches on any DOM objects with a class "ga_test" will be tracked. 
+
+The Event Tracking Category will equal the class name.
+
+The Event Tracking Action will equal the action taken plus the class name.
+
+The Event Tracking Label will equal the object's id.
+
+The Event Tracking Value will equal the duration in milliseconds from when the page loaded to when the action was triggered.
